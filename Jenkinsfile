@@ -40,7 +40,7 @@ pipeline {
                 deploy adapters: [
                     tomcat9(
                         credentialsId: 'jenkins-cred',
-                        url: 'http://tomcat_dev:8080/'
+                        url: 'http://localhost:8080/'
                     )
                 ],
                 contextPath: 'linkpay-test',
