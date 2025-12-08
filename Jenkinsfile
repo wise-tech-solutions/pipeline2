@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('1. Git Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/wise-tech-solutions/Java-Web-App.git'
+                git branch: 'main', url: 'https://github.com/wise-tech-solutions/pipeline2.git'
             }
         }
 
