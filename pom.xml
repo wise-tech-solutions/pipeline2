@@ -93,15 +93,15 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
-	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://3.15.153.198:8081/repository/linkpay-release/</url>
+	      <id>nexus-release</id>
+	      <name>My App Releases Nexus Repository</name>
+	      <url>http://localhost:8007/repository/myApp-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://3.15.153.198:8081/repository/linkpay-snapshot/</url>
+	      <id>nexus-snapshot</id>
+	      <name>My App Snapshot Nexus Repository </name>
+	      <url>http://localhost:8007/repository/maven-snapshots//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
