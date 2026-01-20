@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>My App Releases Nexus Repository</name>
-	      <url>http://nexus:8081/repository/myApp-Release/</url>
+	      <url>http://localhost:8007/repository/myApp-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>My App Snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/maven-snapshots//</url>
+	      <url>http://localhost:8007/repository/myApp-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
